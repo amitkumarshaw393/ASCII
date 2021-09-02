@@ -1,0 +1,26 @@
+#include<iostream>
+#include<vector>
+#include<string>
+using namespace std;
+int main(void)
+{
+	
+string input;
+int n;
+	vector<char>v1;
+	cout<<"enter the character  ";
+	cin>>n;
+	cout<<endl;
+	cin>>input;
+	for(int i=0;i<input.size();i++)
+	v1.push_back(input[i]);
+	
+	for(auto x:v1)
+	{
+		char b=n+int(x);
+		cout<<b;
+	}
+		
+	
+	
+}
